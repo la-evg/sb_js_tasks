@@ -1,0 +1,1 @@
+console.log(Math.pow((a * b), 2));

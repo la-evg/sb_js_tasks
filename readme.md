@@ -40,3 +40,11 @@ console.log(word[0].toUpperCase());
 ```javascript
 console.log(Math.trunc(Math.sqrt(Math.ceil(value) + Math.floor(value) + Math.round(value))));
 ```
+
+### Задание 3.5
+
+В программе заданы две переменные a и b с числовыми значениями. Выведите в консоль произведение значений этих переменных, возведенное в квадрат.
+
+```javascript
+console.log(Math.pow((a * b), 2));
+```
