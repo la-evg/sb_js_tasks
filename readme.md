@@ -64,3 +64,12 @@ console.log(Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2)));
 ```javascript
 console.log(`Имя: "${obj.name}" Фамилия: '${obj.last_name}' Возраст: ${obj.age}`);
 ```
+
+### Задание 3.8
+
+В программе заданы три переменные name, last_name, age, в которых хранятся имя, фамилия и возраст пользователя соответственно. Сформируйте объект с ключами name, last_name, age и значениями из соответствующих переменных. Выведите этот объект в консоль.
+
+```javascript
+let obj = {name: name, last_name: last_name, age: age};
+console.log(obj);
+```
