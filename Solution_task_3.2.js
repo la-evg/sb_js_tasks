@@ -1,0 +1,1 @@
+console.log((name.trim() + last_name.trim()).length);
