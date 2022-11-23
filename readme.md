@@ -126,3 +126,19 @@ if (isNaN(parseInt(price))){
     console.log(parseInt(price));
   }
 ```
+
+### Задание 4.3
+
+В программе объявлены три переменные a, b и c, в которые записаны числовые значения. Определите максимальное значение и выведите его в консоль, но помните: методом max пользоваться нельзя.
+
+```javascript
+if (a > b && a > c){
+    console.log(a)
+  }
+  else if (b > a && b > c){
+    console.log(b)
+  }
+  else{
+    console.log(c);
+  }
+```
