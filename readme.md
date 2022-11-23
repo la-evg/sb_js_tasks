@@ -169,3 +169,25 @@ if (temp >= 25 && weather == "clear"){
 ```javascript
 console.log(word_1.length > word_2.length ? word_1 : word_2);
 ```
+
+### Задание 4.6
+
+В программе объявлена переменная task, в которой записано одно из строковых значений: удалить, переименовать, редактировать. Напишите программу, которая выводит в консоль:
+
+- delete – при значении task – удалить;
+- rename – при значении task – переименовать;
+- edit – при значении task – редактировать.
+
+```javascript
+switch (task) {
+    case "удалить":
+      console.log('delete');
+      break;
+    case "переименовать":
+      console.log('rename');
+      break;
+    case "редактировать":
+      console.log('edit');
+      break;
+  }
+```
