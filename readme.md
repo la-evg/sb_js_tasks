@@ -18,3 +18,11 @@ let year_of_foundation = 1841;
 ```javascript
 console.log((name.trim() + last_name.trim()).length);
 ```
+
+### Задание 3.3
+
+В программе задана переменная word со строковым значением. Выведите в консоль первую букву значения в верхнем регистре.
+
+```javascript
+console.log(word[0].toUpperCase());
+```
