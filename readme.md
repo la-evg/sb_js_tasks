@@ -73,3 +73,16 @@ console.log(`Имя: "${obj.name}" Фамилия: '${obj.last_name}' Возра
 let obj = {name: name, last_name: last_name, age: age};
 console.log(obj);
 ```
+
+### Задание 3.9
+
+В программе задана переменная value. Выведите в консоль ее тип. Не забудьте, что функция typeof со значением аргумента null выдает неправильный результат. При значении null необходимо вывести "null".
+
+```javascript
+if (value === null) {
+    console.log("null");
+  }
+  else {
+    console.log(typeof(value));
+  }
+```
