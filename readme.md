@@ -271,3 +271,15 @@ function priceMessage(x) {
   
   priceMessage(price);
 ```
+
+### Задание 6.2
+
+В программе объявлены две переменные с числовым значением — num_1 и num_2. Напишите функцию mult, которая принимает два аргумента и возвращает их произведение. Вызовите функцию mult и передайте ей в качестве аргументов значения переменных num_1 и num_2, а результат выведите в консоль.
+
+```javascript
+function mult(oneNum, twoNum){
+    return oneNum*twoNum
+  }
+  
+  console.log(mult(num_1, num_2))
+```
