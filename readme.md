@@ -321,3 +321,12 @@ console.log(str.trim())
 const getNumber = (data) => isNaN(parseInt(data)) ? 0 : parseInt(data);
 console.log(getNumber(data))
 ```
+
+### Задание 6.6
+
+В программе объявлены две переменные — value и total, в которых записаны числовые значения. Напишите функцию getPercent(value, total), которая возвращает процент числа value от значения total. Вызовите эту функцию с value и total в качестве аргументов. Результат работы функции выведите в консоль.
+
+```javascript
+const getPercent = (firstNum, secondNum) => firstNum / secondNum * 100;
+console.log(getPercent(value, total))
+```
