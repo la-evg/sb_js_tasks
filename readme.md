@@ -436,3 +436,27 @@ for (let i = 2; i < list.length; i++) {
 
 console.log(sum)
 ```
+
+### Задание 9.7
+
+В программе объявлена переменная list, в которую записан массив из числовых значений. Рассчитайте произведение максимального и минимального элементов массива. Результат выведите в консоль.
+
+```javascript
+let max = 0;
+
+for (num of list) {
+  if (num > max){
+    max = num;
+  }
+}
+
+let min = max;
+
+for(num of list){
+  if (num < min){
+    min = num
+  }
+}
+
+console.log(min*max)
+```
