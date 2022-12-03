@@ -411,3 +411,28 @@ for (num of list){
 
 console.log(sum)
 ```
+
+### Задание 9.6
+
+В программе объявлена переменная list, в которую записан массив числовых значений от 1 до 100. Используя цикл, сформируйте сумму из простых чисел этого диапазона и выведите результат в консоль.
+
+```javascript
+sum = 0;
+
+for (let i = 2; i < list.length; i++) {
+   let flag = true;
+   
+   for (let j = 2; j < i; j++) {
+      if (list[i] % j == 0) {
+         flag = false;
+         break;
+      }
+   }
+
+   if (flag) {
+      sum += list[i];
+   }
+}
+
+console.log(sum)
+```
