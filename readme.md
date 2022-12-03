@@ -347,3 +347,20 @@ list.push("Клубника")
 
 console.log(list)
 ```
+
+### Задание 9.2
+
+В программе объявлена переменная list, в которую записан массив из строковых значений. Посчитайте и выведите в консоль элемент с максимальной длиной. Если элементов с такой длиной несколько, выведите первый.
+
+```javascript
+let count = 0;
+let word = "";
+for (let item of list){
+  if (item.length>count){
+    count = item.length;
+    word = item;
+  }
+  
+}
+console.log(word);
+```
