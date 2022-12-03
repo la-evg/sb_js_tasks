@@ -364,3 +364,16 @@ for (let item of list){
 }
 console.log(word);
 ```
+
+### Задание 9.3
+
+В программе объявлена переменная list, которая содержит массив чисел. Используя цикл, посчитайте сумму чисел и выведите в консоль.
+
+```javascript
+let sum = 0;
+for (num of list){
+  sum += num;
+}
+
+console.log(sum)
+```
