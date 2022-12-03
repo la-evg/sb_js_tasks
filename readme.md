@@ -474,3 +474,29 @@ for (num of list){
 
 console.log(reversList)
 ```
+
+### Задание 9.9
+
+В программе объявлена переменная sentence со строковым значением. Преобразуйте эту строку в массив так, чтобы каждое слово было отдельным элементом массива. Результат выведите в консоль.
+
+Метод строки split() использовать нельзя.
+
+```javascript
+function SentenceToWords(sentence){
+    words = [];
+    word = "";
+    for (char of sentence){
+    if(char != " "){
+      word = word.concat(char)
+    }
+    else{
+      words.push(word)
+      word = "";
+    }
+  }
+  words.push(word)
+  return words
+  }
+  
+  console.log(SentenceToWords(sentence))
+```
