@@ -500,3 +500,20 @@ function SentenceToWords(sentence){
   
   console.log(SentenceToWords(sentence))
 ```
+
+### Задание 9.10
+
+В программе объявлена переменная list, в которую записан массив из числовых значений. Напишите функцию count(list), которая принимает массив в качестве аргумента и возвращает количество четных элементов в массиве. Вызовите функцию count(list) и в качестве аргумента передайте ей список list. Выведите в консоль то, что вернет функция.
+
+```javascript
+function Count(list){
+    count = 0;
+    
+    for(num of list){
+      if (num % 2 == 0) {count++}
+    }
+    return count
+  }
+  
+console.log(Count(list))
+```
