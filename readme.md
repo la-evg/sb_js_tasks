@@ -460,3 +460,17 @@ for(num of list){
 
 console.log(min*max)
 ```
+
+### Задание 9.8
+
+В программе объявлена переменная list, в которую записан массив из числовых значений. Напишите программу, которая переворачивает массив list и выводит результат в консоль. Метод массива reverse() использовать нельзя.
+
+```javascript
+let reversList = [];
+
+for (num of list){
+  reversList.unshift(num)
+}
+
+console.log(reversList)
+```
