@@ -561,3 +561,19 @@ for(let i = 10; i <= 20; i++){
 
 console.log(list)
 ```
+
+### Задание 9.14
+
+В программе объявлена переменная list, в которую записан массив. Используя цикл, сформируйте массив numbers_list, который содержит в себе только числа из массива list. Если в процессе прохода циклом по массиву list обнаружится значение false, последующие значения рассматривать не нужно. В конце программы выведите значение переменной numbers_list в консоль.
+
+```javascript
+let numbers_list = [];
+
+for(let i = 0; i < list.length && list[i] !== false; i++){
+    if ((typeof list[i]) == "number"){
+        numbers_list.push(list[i])
+    }
+}
+
+console.log(numbers_list)
+```
