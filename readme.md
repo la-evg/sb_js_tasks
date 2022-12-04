@@ -634,3 +634,25 @@ for(fruit of fruits){
 
 console.log(countFruits)
 ```
+
+### Задание 9.18
+
+В программе объявлена переменная list, в которую записан массив из объектов. В каждом объекте записаны название продукта и его стоимость.
+
+Выведите в консоль название продукта, цена которого является максимальной в заданном массиве. Если таких несколько, выведите название первого из них.
+
+```javascript
+function ExpProd(list){
+    price = 0;
+    prod = ""
+    for (item of list){
+        if(item.price > price){
+            price = item.price;
+            prod = item.product;
+        }
+}
+return(prod)
+}
+
+console.log(ExpProd(list))
+```
