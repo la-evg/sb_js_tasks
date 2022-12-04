@@ -577,3 +577,21 @@ for(let i = 0; i < list.length && list[i] !== false; i++){
 
 console.log(numbers_list)
 ```
+
+### Задание 9.15
+
+В программе объявлена переменная list, в которой записан массив из строковых значений. Напишите программу, которая считает количество элементов в массиве list без учета элементов со значением "default" и выводит результат в консоль. Сравнение должно быть регистронезависимым.
+
+```javascript
+function countWords(list){
+    let count = 0;
+    for (value of list){
+        if (value.toLowerCase() !== "default"){
+            count += 1;
+        }
+    }
+    return count
+}
+
+console.log(countWords(list))
+```
